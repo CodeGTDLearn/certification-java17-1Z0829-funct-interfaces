@@ -5,8 +5,8 @@ interface Functionable {
 
   String toString();        //JAVA.LANG.OBJECT
   boolean equals(Object o); //JAVA.LANG.OBJECT
-//  Object clone();           //JAVA.LANG.OBJECT
-//  int hashCode();           //JAVA.LANG.OBJECT
+  int hashCode();           //JAVA.LANG.OBJECT
+//  Object clone();           //JAVA.LANG.OBJECT !!!!!
 }
 
 public class SamJavaLangObjects {

@@ -13,7 +13,7 @@ abstract class MyClass {
   abstract void amazingMethod(String arg1, String arg2);
 }
 
-public class Awesome extends MyClass implements MyInt {
+public class TestHiding extends MyClass implements MyInt {
 // sem HIDEAMENTO HAVERA "CLASH DAS STATIC FIELDS DE MY-CLASS E MYINT
 
   public void amazingMethod(String arg1) {
@@ -26,7 +26,7 @@ public class Awesome extends MyClass implements MyInt {
 
   public void main(String[] args) {
 
-    MyInt ai = new Awesome();
+    MyInt ai = new TestHiding();
 
     //System.out.println(value);
   }
